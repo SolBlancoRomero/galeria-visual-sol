@@ -1,23 +1,16 @@
 # Río de Janeiro: Postales de la Ciudad Maravillosa
  
-## Nombre y apellido
-Sol Micol Blanco Romero
+**Autora:** Sol Micol Blanco Romero
  
-## Título o nombre tentativo de la galería
-Río de Janeiro: Postales de la Ciudad Maravillosa
+**Tema:** Propuesta para una galería web dedicada a Río de Janeiro, Brasil, conocida popularmente como "la ciudad maravillosa" por la combinación única de playas, cerros y paisaje urbano que la caracteriza.
  
-## Tema elegido
-Fotografía de lugares icónicos de Río de Janeiro, Brasil.
+**Propuesta:** La galería va a reunir fotografías de los lugares más representativos de la ciudad, como las playas de Ipanema y Copacabana, miradores como el Cristo Redentor y el Pan de Azúcar, y algunos rincones de sus barrios, acompañando cada imagen con una breve reseña.
  
-## Breve descripción de la propuesta
-Esta galería reunirá una colección de imágenes de los lugares más representativos de Río de Janeiro, como sus playas, miradores y paisajes urbanos, mostrando la identidad visual de la ciudad conocida como "la ciudad maravillosa".
+**Objetivo:** Ofrecer un recorrido visual y ordenado por los paisajes más reconocibles de Río de Janeiro, para que quien visite la galería pueda apreciar la variedad de escenarios que conviven en una misma ciudad.
  
-## Objetivo de la galería
-El objetivo es presentar de forma visual y ordenada los sitios más emblemáticos de Río de Janeiro, permitiendo a quien visite la página hacer un recorrido virtual por sus paisajes naturales y urbanos más reconocidos.
- 
-## Descripción de los contenidos
-La galería incluirá una colección de fotografías de distintos puntos de Río de Janeiro (playas como Ipanema y Copacabana, miradores como el Cristo Redentor y el Pan de Azúcar, y barrios característicos), cada una acompañada de una breve ficha con el nombre del lugar y una descripción corta.
- 
----
-Proyecto realizado para la materia **Diseño y Desarrollo Web**.
+**Contenidos previstos:**
+- Fotografías de playas emblemáticas (Ipanema, Copacabana)
+- Imágenes de miradores y puntos altos de la ciudad (Cristo Redentor, Pan de Azúcar)
+- Registro de algunos barrios y calles características
+- Una breve ficha por cada imagen, con el nombre del lugar y un dato corto
  
