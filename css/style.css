@@ -1,0 +1,181 @@
+/* ============================================
+   Río de Janeiro: Postales de la Ciudad Maravillosa
+   Hoja de estilos general del sitio
+   ============================================ */
+
+/* Tipografía: importamos "Poppins" desde Google Fonts.
+   Elegimos esta tipografía porque tiene formas redondeadas
+   y amigables, que acompañan la idea de un tema playero y
+   relajado como Río de Janeiro. La usamos para los títulos,
+   y dejamos una tipografía simple (Arial) para el texto, así
+   se lee cómodo en párrafos largos. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Colores generales del sitio.
+   Los elegimos pensando en Río de Janeiro: el turquesa
+   representa el mar, el color arena representa las playas,
+   y el coral hace referencia a los atardeceres cariocas. */
+:root {
+  --color-mar: #0e7c86;
+  --color-mar-oscuro: #0a5a62;
+  --color-arena: #f4e9d5;
+  --color-coral: #ff7a59;
+  --color-texto: #24333a;
+  --color-fondo: #fbf8f2;
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', Arial, sans-serif;
+  color: var(--color-mar-oscuro);
+}
+
+/* Encabezado del sitio */
+header {
+  background-color: var(--color-mar);
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 0 0 8px;
+  font-size: 2em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+/* Contenido principal */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Sección de presentación en la página principal */
+.presentacion {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.presentacion img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Grilla de tarjetas de la galería */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border: 1px solid var(--color-arena);
+  border-radius: 10px;
+  width: 260px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.tarjeta h2 {
+  font-size: 1.15em;
+  margin: 10px 0;
+}
+
+.tarjeta p {
+  font-size: 0.95em;
+  margin-bottom: 12px;
+}
+
+/* Botón / enlace para ver más */
+.boton {
+  display: inline-block;
+  background-color: var(--color-coral);
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.boton:hover {
+  background-color: var(--color-mar-oscuro);
+}
+
+/* Página individual de cada elemento */
+.elemento {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.elemento img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  display: block;
+  margin: 16px auto;
+}
+
+/* Enlaces en general */
+a {
+  color: var(--color-mar);
+}
+
+a:hover {
+  color: var(--color-coral);
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: var(--color-mar-oscuro);
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: var(--color-arena);
+}
