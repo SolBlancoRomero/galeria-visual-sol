@@ -4,44 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Río de Janeiro: Postales de la Ciudad Maravillosa</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      color: #333;
-      background-color: #eef6f6;
-      margin: 30px;
-    }
-    h1 {
-      color: #146c73;
-    }
-    img {
-      width: 400px;
-      border-radius: 8px;
-    }
-    a {
-      color: #146c73;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- 
-  <h1>Río de Janeiro: Postales de la Ciudad Maravillosa</h1>
-  <p>Por Sol Micol Blanco Romero</p>
- 
-  <p>
-    Río de Janeiro es conocida popularmente como "la ciudad maravillosa"
-    por sus playas, sus cerros y su paisaje urbano tan particular. Esta
-    galería va a estar dedicada a mostrar, a través de fotos, los lugares
-    más representativos de la ciudad.
-  </p>
- 
-  <img src="ipanema.jpg" alt="Playa de Ipanema, Río de Janeiro">
-  <p>Playa de Ipanema.</p>
- 
-  <p>
-    Podés ver más información del proyecto en la
-    <a href="https://github.com/SolBlancoRomero/galeria-visual-sol">documentación</a>.
-  </p>
- 
+
+  <header>
+    <h1>Río de Janeiro: Postales de la Ciudad Maravillosa</h1>
+    <p>Galería visual de Sol Micol Blanco Romero</p>
+  </header>
+
+  <main>
+
+    <section class="presentacion">
+      <h2>Sobre esta galería</h2>
+      <p>
+        Río de Janeiro es conocida popularmente como "la ciudad maravillosa"
+        por la combinación única de playas, cerros y paisaje urbano que la
+        caracteriza. Esta galería reúne algunos de los lugares más
+        representativos de la ciudad, cada uno con su propia página, fotos
+        y una breve descripción.
+      </p>
+      <img src="img/ipanema.jpg" alt="Playa de Ipanema, Río de Janeiro">
+    </section>
+
+    <section>
+      <h2>Elementos de la galería</h2>
+      <div class="galeria">
+
+        <div class="tarjeta">
+          <img src="img/ipanema.jpg" alt="Playa de Ipanema">
+          <h2>Ipanema</h2>
+          <p>Una de las playas más famosas de Río de Janeiro.</p>
+          <a class="boton" href="elemento1.html">Ver más</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="img/copacabana.jpg" alt="Playa de Copacabana">
+          <h2>Copacabana</h2>
+          <p>La playa más icónica y visitada de la ciudad.</p>
+          <a class="boton" href="elemento2.html">Ver más</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="img/cristo-redentor.jpg" alt="Cristo Redentor">
+          <h2>Cristo Redentor</h2>
+          <p>El monumento más reconocido de Río, en la cima del Corcovado.</p>
+          <a class="boton" href="elemento3.html">Ver más</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="img/pan-de-azucar.jpg" alt="Pan de Azúcar">
+          <h2>Pan de Azúcar</h2>
+          <p>Cerro con teleférico y una de las mejores vistas de la ciudad.</p>
+          <a class="boton" href="elemento4.html">Ver más</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="img/jardin-botanico.jpg" alt="Jardín Botánico de Río de Janeiro">
+          <h2>Jardín Botánico</h2>
+          <p>Un espacio verde con especies nativas en pleno centro de Río.</p>
+          <a class="boton" href="elemento5.html">Ver más</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Proyecto realizado para la materia Diseño y Desarrollo Web.</p>
+    <p><a href="README.md">Ver documentación del proyecto</a></p>
+  </footer>
+
 </body>
 </html>
